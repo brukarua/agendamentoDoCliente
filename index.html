@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>agendamento de clientes</h1>
+    </header>
+    <section class="container">
+        <form id="my-form">
+            <h1>adicionar usuário</h1>
+            <div>
+                <label for="name">nome:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div>
+                <label for="email">e-mail:</label>
+                <input type="text" id="email" required>
+            </div>
+            <div>
+                <label for="horario">horário:</label>
+                <select name="hours" id="horario">
+                    <option value="---">---</option>
+                    <option value="09h">09h00</option>
+                    <option value="10h">10h00</option>
+                    <option value="11h">11h00</option>
+                    <option value="12h">12h00</option>
+                </select>
+            </div>
+            <input type="submit" value="enviar" id="" class="btn">
+            </form>
+            </section>
+        
+        <ul id="users">
+
+        </ul>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
